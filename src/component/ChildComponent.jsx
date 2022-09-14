@@ -1,7 +1,7 @@
 import React from 'react';
 import { memo } from "react";
 function ChildComponent(props) {
-    console.log("CC")
+    // console.log("CC")
     return ( 
         <>
         </>

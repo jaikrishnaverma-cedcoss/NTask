@@ -1,10 +1,13 @@
+
+import './BaseUI.css';
 import './App.css';
 import { UserProvider } from './component/ContextApi';
 import ComponentA from './component/ComponentA';
 import ParentComponent from './component/ParentComponent';
+import CurrencyConverter from './component/CurrencyConverter';
 function App() {
   return (
-    <div className="App">
+    <div className="App p1">
       <h2>
 Q1. Here is a scenario where the App component has username which it wants to pass to the component D as
  a prop without passing it through the intermediate components. Make use of Context API to perform this.</h2>
@@ -17,6 +20,8 @@ Q1. Here is a scenario where the App component has username which it wants to pa
    
    
    <ParentComponent />
+   <h2>Q3 Make a Currency Converter as shown here</h2>
+<CurrencyConverter />
     </div>
   );
 }

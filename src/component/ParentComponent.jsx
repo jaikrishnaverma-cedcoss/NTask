@@ -12,7 +12,7 @@ class ParentComponent extends Component {
       }, 2000);
  }
     render() {
-         console.log("parent")
+        //  console.log("parent")
         return ( 
             <>
             <h1 style={{color:"red"}}>{this.state.name}</h1>
